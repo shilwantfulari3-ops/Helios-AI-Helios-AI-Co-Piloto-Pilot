@@ -1,0 +1,14 @@
+# --- Security & Database (You already have these) ---
+.streamlit/
+secrets.toml
+helios.db
+
+# --- Python Environment ---
+__pycache__/
+*.pyc
+.venv/       # Important if you created a virtual environment locally
+.env         # In case you use environment variables later
+
+# --- System Files ---
+.DS_Store    # For macOS users
+Thumbs.db    # For Windows users
